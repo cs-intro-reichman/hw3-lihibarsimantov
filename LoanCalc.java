@@ -72,7 +72,6 @@ public class LoanCalc {
 		iterationCounter++;
 		double g = (L + H) / 2; // Initial guess is midpoint between L and H
 		iterationCounter++;
-		iterationCounter++;
 		while ((H - L) > epsilon) {
 			iterationCounter++;
 			// Compute f(L) and f(g)
