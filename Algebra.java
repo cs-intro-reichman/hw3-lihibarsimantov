@@ -58,11 +58,11 @@ public class Algebra {
 
 		if (x1 < 0) {
 			x1 = minus(0, x1);
-			negative = true;
+			negative = !negative;
 		}
 		if (x2 < 0) {
 			x2 = minus(0, x2);
-			negative = true;
+			negative = !negative;
 		}
 
 		for (int i = 0; i < x2; i++) {
@@ -95,11 +95,11 @@ public class Algebra {
 
 		if (x1 < 0) {
 			x1 = minus(0, x1);
-			negative = true;
+			negative = !negative;
 		}
 		if (x2 < 0) {
 			x2 = minus(0, x2);
-			negative = true;
+			negative = !negative;
 		}
 
 		int result = 0;
